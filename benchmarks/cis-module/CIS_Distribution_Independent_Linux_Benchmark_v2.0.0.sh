@@ -1,5 +1,6 @@
 ﻿#!/bin/bash
 
+echo "Start build CIS_Distribution_Independent_Linux_Benchmark_v2.0.0 Raport"
 
 : '
 1 Initial Setup
