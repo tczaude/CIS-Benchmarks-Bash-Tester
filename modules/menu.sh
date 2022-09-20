@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "The menu script"
-
 while getopts "d" options; do
     case "${options}" in 
         d)  ((VERBOSE++));;
@@ -12,4 +10,5 @@ while getopts "d" options; do
         *)                                    # If unknown (any other) option:
             exit_abnormal                       # Exit abnormally.
             ;;
+    esac
 done
